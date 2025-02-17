@@ -11,7 +11,9 @@ Scripts to analyze 96/386 well plate images from flatbed scanner.
 #$ python3 reduce_filesize.py
 
 
-## 1. crop#$ bash crop-1x2.sh
+## 1. crop
+
+#$ bash crop-1x2.sh
 
 원본 이미지의 플레이트 수에 따라 다른 파일 선택 가능. x1, y1, y2, width, height는 샘플에 따라 다를 수 있으니 조정 필요. (raw-to-plate.py는 주석을 달아놓은 것임. 원본은 origin이 붙어있음)
 
@@ -23,7 +25,9 @@ $mv [filename]P8*.jpg plate1
 
 $mv [filename]P10*.jpg plate2
 
-## 2. plate to well#$ plate-to-96well_jpeg.sh
+## 2. plate to well
+
+#$ plate-to-96well_jpeg.sh
 
 tif file인 경우 jpeg 없는 것 쓰면 됨. 
 
