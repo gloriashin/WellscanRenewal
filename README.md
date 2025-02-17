@@ -18,9 +18,9 @@ PLATE별로 폴더를 분리.
 
 $mkdir plate1 plate2
 
-$mv *P8* plate1
+$mv [filename]*P8*.jpg plate1
 
-$mv *P10* plate2
+$mv [filename]*P10*.jpg plate2
 
 ##2. plate to well#$ plate-to-96well_jpeg.sh
 
